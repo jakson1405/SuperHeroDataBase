@@ -30,7 +30,7 @@
                             <br>
                             <v-card-actions class="bthHeroCard mb-3">
 
-                                <v-btn block class="warning mr-3" :to="/hero/ + hero.id">Open</v-btn>
+                                <v-btn block class="warning mr-3" :to="'/superheroes/hero/' + hero.id">Open</v-btn>
 
                             </v-card-actions>
                         </v-flex>

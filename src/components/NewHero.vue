@@ -134,7 +134,7 @@
                 }
                 this.$store.dispatch('createHero', hero)
                     .then(() => {
-                        this.$router.push('/heroes')
+                        this.$router.push('superheroes/heroes')
                     })
                     .catch(() => {})
 

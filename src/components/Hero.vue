@@ -81,7 +81,7 @@
 
                 })
                     .then(() => {
-                        this.$router.push('/')
+                        this.$router.push('superheroes/')
                         window.location.reload()
                     })
                     .catch(() => {})

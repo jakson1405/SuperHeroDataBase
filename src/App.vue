@@ -25,13 +25,13 @@
     data: () => ({
       links: [
         {
-          tittle: 'Home', url: '/'
+          tittle: 'Home', url: '/superheroes'
         },
         {
-          tittle: 'Create', url: '/create'
+          tittle: 'Create', url: '/superheroes/create'
         },
         {
-          tittle: 'Heroes', url: '/heroes'
+          tittle: 'Heroes', url: '/superheroes/heroes'
         }
 
       ]

@@ -8,7 +8,7 @@
                         :src="hero.imgSrc"
                 >
                     <div class="heroLink">
-                        <v-btn class="error" :to="'/hero/' + hero.id">
+                        <v-btn class="error" :to="'/superheroes/hero/' + hero.id">
                             {{hero.nickname}}
                         </v-btn>
                     </div></v-carousel-item>
@@ -43,7 +43,7 @@
                         <v-card-actions class="bthHeroCard">
                             <v-btn
                                     text
-                                    :to="'/hero/' + hero.id"
+                                    :to="'/superheroes/hero/' + hero.id"
                             >
                                 Open
                             </v-btn>
