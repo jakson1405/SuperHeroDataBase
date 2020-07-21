@@ -1,4 +1,4 @@
-# newsuperhero1
+# superheroDatabase
 
 ## Project setup
 ```
